@@ -1,9 +1,9 @@
 import s from '../style/InputContainer.module.scss'
 
-export const InputContainer= ()=>{
+export const InputContainer= (props)=>{
     return(
         <>
-        <h2 className={s.subtitleStyle}>About Lexiconline</h2>
+        <h2 className={s.subtitleStyle}>{props.title}</h2>
         </>
     )
 }

@@ -19,7 +19,7 @@ export const Footer =()=>{
                 <li>https:dictioanary.ap.dev</li>
                 <li>for the awesome API </li>
             </div>
-            <div>
+            <div className={s.logo}>
                 <img src={logo} alt="logo" />
                 <h3>Lexiconline</h3>
             </div>

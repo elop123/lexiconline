@@ -15,13 +15,14 @@ export const Main2 =()=>{
             let res = await fetch(url);
             let data = await res.json();
             console.log(data);
-            setIsSearch(data[0])
+            setIsSearch(true)<
+            SetDisplayWord(data);
             console.log(data);
             
             }
         searchWord();
         
-    },[setIsSearch,word]);
+    },[word]);
 
     //function for input change
     const handleChange = (e) => {
@@ -35,7 +36,7 @@ export const Main2 =()=>{
         if(word===''){
            alert('Please enter a word')
         }else{
-           setIsSearch(true);
+           searchWord();
         }
        
         console.log('Search clicked for:', word)
@@ -51,16 +52,19 @@ export const Main2 =()=>{
             </div>
         </section>
            
-        {displayWord && (
-        <section>
-            {displayWord.map((item, index) => (
-            <div key={index}>
-              <h2>{item.word[0]}</h2>
-              <p>Phonetic: {item.phonetic}</p>
-              
-            </div>
-            ))}
-        </section>)
+        {isSearch &&  displayWord.length > 0 && (
+       <section>
+       {displayWord.map((item, index) => (
+         <div key={index}>
+          <h2>{word}</h2>
+           <h2>Noun:{item.word}</h2>
+           <p>Phonetic: {item.phonetic }</p>
+           <p>Definition: {item.meanings[0].definitions[0].definition}</p>
+          <p>{item.meanings[0].partofSpeech}</p>
+          <p>{item.meanings[0].synonyms}</p>
+         </div>
+       ))}
+     </section>)
         }
         </div>
          
