@@ -1,0 +1,35 @@
+.subtitleStyle {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    z-index: 1;
+    width: 70%;
+    height: 163px;
+    background-color: #F4F4F4;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: -5rem;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    color: #5A5A5A;
+    font-family: "Karla", sans-serif;
+    font-size: 48px;
+    font-weight: 200;
+    margin-bottom: 5rem;
+  }
+
+  .inputContainer{
+    display: flex;
+    margin: auto;
+    margin-top: -3rem;
+    //position: absolute;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 2rem;
+     input{
+        width: 70px;
+     }
+  }

@@ -1,0 +1,26 @@
+.footerStyle{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: green;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family:"Karma", serif;
+    color: white;
+    list-style-type: none;
+    padding: 4rem;
+    width: 90%;
+    img{
+        float: right;
+        margin-top: -0.5rem;
+        margin-right: 2rem;
+    }
+    h3{
+        float: right;
+        margin-top: 5.5rem;
+        margin-right: -6rem;
+        font-family: "Marck Script", cursive;
+        font-size: 24px;
+        font-weight: 200;
+    }
+}

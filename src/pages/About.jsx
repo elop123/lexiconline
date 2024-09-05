@@ -1,7 +1,11 @@
-import React from 'react';
-export const About = () =>{
+import {Header} from '../components/Header'
+import {Main} from '../components/Main'
+
+export const About=()=>{
     return(
-    <>
- <h1>About page</h1>
-    </>)
+        <>
+        <Header />
+        <Main />
+        </>
+    )
 }
