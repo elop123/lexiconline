@@ -7,7 +7,7 @@ export const Home = () =>{
     return(
     <>
   <Header />
-  <InputContainer title="Enter a word to search for:"/>
+  <InputContainer title="Enter a word to search for" />
   <Main2 />
 
     </>)

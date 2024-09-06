@@ -9,33 +9,26 @@
     margin: 0;
     height: 3rem;
     width: 100%;
-
-   
     ul{
         list-style-type: none;
         display:flex;
         justify-content: center;
         margin: 1rem;
-        //padding: 0;
         gap: 2rem;
         li a{
             text-decoration: none;
             color: #D9D9D9;
-            padding: 1rem;
-            //padding: 2rem;
-            //display: flex;
+            padding: 1.2rem;
             align-items: center;
             justify-content: center;
             text-align: center;
-            margin-right: 2.5rem;
-
-          
+            margin-right: 2rem;
+            font-size: 22px;
+            font-family: "Karla", sans-serif;
+            font-weight: 300;
         }
-        
-        
         a{
             margin-top: -0.7rem;
-           
         }
         }
     }
@@ -45,15 +38,4 @@
 
 
 
-:root {
-    --primary-color: #57842A;
-    --secondary-color: #42651E;
-    --font-color:#5A5A5A;
-    --white-color:#F4F4F4;
-    --secondary-white:#FFFFFF;
-    --grey-color:#D9D9D9;
-    --font-family:"Marck Script", cursive;
-    --font-family2: "Karla", sans-serif;
-    --font-family3:  "Karma", serif;
-    
-  }
+

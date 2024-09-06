@@ -6,12 +6,10 @@
    .imageStyle{
     width: 100%;
    }
-    
 }
-
 .titleStyle{
     position: absolute; 
-    top: 50%; 
+    top: 33%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     text-align: center;
@@ -20,12 +18,12 @@
     z-index: 2; 
     font-family: "Marck Script", cursive;
     font-size: 128px;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 
 .circle{
- position: absolute;
+position: absolute;
 top: 9.6%;
 left: 50%;
 transform: translate(-50%, -50%);
@@ -45,16 +43,3 @@ align-items: center;
 }
 
 
-// .circleStyle{
-//     display: flex;
-//     justify-content: center;
-//     width: 230px;
-//     height: 230px;
-//     border-radius:50% ;
-//     background-color:#57842A;
-//    align-items: center;
-//    justify-items: center;
-//    text-align: center;
-//    margin-top: -7rem;
-//    position: relative;
-//    color: inherit; }

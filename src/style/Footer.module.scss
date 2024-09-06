@@ -29,15 +29,15 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .footerStyle {
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center; 
         text-align: center;
-        padding: 1.3rem; 
+        padding: 1rem; 
         
-        width: 100%;
+        width: 95%;
         height: 100%;
     }
 

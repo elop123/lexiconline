@@ -9,17 +9,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: -3rem;
+    
 }
 
 .inputContainer input {
    
     width: 400px; 
-    padding: 18px;
-    border: 1px solid #d3d3d3;
+    padding: 21.4px;
+    border: 1px solid #57842A;
     border-right: none;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 64px;
+    border-bottom-left-radius: 64px;
     outline: none;
     font-size: 16px;
     color: #333;
@@ -27,15 +28,97 @@
   
   .inputContainer button {
     padding: 19px 18px;
-    background-color: #4CAF50;
+    background-color: #57842A;
     border: none;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    color: white;
-    font-size: 16px;
+    border-top-right-radius: 64px;
+    border-bottom-right-radius: 64px;
+    color: #D9D9D9;
+    font-family: 'Karla';
+    font-size: 22px;
+    font-weight: 400;
     cursor: pointer;
     outline: none;
   }
   
   .inputContainer button:hover {
     background-color: #3e8e41;}
+
+  .resultStyle{
+    background-color: white;
+    width: 1100px;
+    height: auto;
+    margin: auto;
+    border-radius: 8px;
+    border: 1px solid rgb(55, 55, 55, 0.71);
+    box-shadow: 2px 2px 4px grey ;
+    margin-top: -10rem;
+    margin-bottom: 2rem;
+    .wordStyle{
+      font-family: 'Karma';
+      font-weight: 400;
+      font-size:54px;
+      color: #57842A;
+      text-transform: capitalize;
+      text-align: center;
+    }
+    .audioStyle:hover{
+      background-color: rgb(243, 242, 242);
+      border-radius: 50px;
+      width: 50px;
+      height: 50px;
+    }
+    .phoneticStyle{
+      text-align: center;
+      margin-top: -3rem;
+      margin-left: 6rem;
+      font-size: 1rem;
+      font-family: 'Karla';
+    }
+    hr{
+      width: 92%;
+      color: rgb(55, 55, 55, 0.71);
+    }
+    .nounStyle{
+      font-family: 'Karma';
+      font-weight: 400;
+      font-size:36px;
+      color: #57842A;
+      padding: 3rem;
+    }
+    .synonymStyle{
+     font-family: 'Karma';
+     margin-top:4rem;
+     margin-left: 1rem;
+      .underline{
+        text-decoration: underline;
+        font-family: 'Karma';
+        font-weight: 500;
+        font-size:24px;
+        color: #000000;
+        padding: 2rem;
+        margin-left: 1rem;
+      }
+    }
+    .definitionStyle{
+      margin-left: 3rem;
+      font-family: 'Karma';
+    }
+    // .groupOne{
+    //   display: grid;
+    //   grid-template-columns: 1fr 1fr;
+    // }
+    .verbStyle{
+      font-family: 'Karma';
+      font-weight: 400;
+      font-size:36px;
+      color: #57842A;
+      padding: 3rem;
+    }
+    .interjectionStyle{
+      font-family: 'Karma';
+      font-weight: 400;
+      font-size:36px;
+      color: #57842A;
+      padding: 3rem;
+    }
+  }
