@@ -14,7 +14,7 @@ export const Main =()=>{
         <h2 className={s.mainTitleStyle}>Why Lexiconline</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci facilis, voluptates laudantium omnis consequatur reiciendis ducimus maxime voluptate! Quibusdam cumque sequi quod eligendi, sit laboriosam. Inventore in ea est eos.</p>
         <h2 className={s.mainTitleStyle}>A special thanks</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti unde reprehenderit, quasi mollitia quisquam voluptas, in exercitationem, facere minima autem illum quae alias. Consequatur iusto dignissimos ullam, reiciendis minus quisquam.</p>
+        <p>Without all amazing work done at the people who made http none of this would have been possible. Their Api is completely free for anyone to develop with and we encourange you to visit their site.So much so, that we have included a direct link to their site in the navigation  on this site.</p>
         </main>
     )
 }

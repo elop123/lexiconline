@@ -5,6 +5,7 @@
     text-align: center;
    .imageStyle{
     width: 100%;
+    //height: auto;
    }
 }
 .titleStyle{
@@ -22,11 +23,12 @@
 }
 
 
+
 .circle{
 position: absolute;
-top: 9.6%;
+top: -5%;
 left: 50%;
-transform: translate(-50%, -50%);
+transform: translate(-50%, 0);
 height: 120px;
 width: 220px;
 border-radius: 0 0 150px 150px;
@@ -34,6 +36,7 @@ background-color: #57842A;
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 
 .bookLogo{
@@ -42,4 +45,26 @@ align-items: center;
  
 }
 
+@media (max-width: 768px){
+    .titleStyle{
+        font-size:64px;
+    }
+    .circle{
+    top: -8%; 
+    height: 90px;
+    width: 180px;
+    }
+   
+}
 
+@media (max-width: 480px) {
+    .titleStyle{
+        font-size: 48px;
+    }
+    .circle{
+        top: -10%; 
+        height: 70px;
+        width: 160px;
+    }
+    
+}

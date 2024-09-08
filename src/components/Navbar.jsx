@@ -17,11 +17,8 @@ export const Navbar =()=>{
            </li>
            <li className={s.circleStyle}><NavLink to ={"/about"}>ABOUT</NavLink>
            </li>
-           <li><NavLink to ={"/api"}>API</NavLink><a href= "https://dictionaryapi.dev/" target="_blank" >
-           </a></li>
-        
-    
-           
+           <li><a href= "https://dictionaryapi.dev/" target="_blank" >
+           API</a></li>
        </ul>
    </nav>
    </>

@@ -1,57 +1,16 @@
-.searchContainer{
-    height: 50vh;
-    h2{
-        text-align: center;
-        margin-top: 2rem;
-    }
+section{
+  background-color: #F4F4F4;
 }
-.inputContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -3rem;
-    
-}
-
-.inputContainer input {
-   
-    width: 400px; 
-    padding: 21.4px;
-    border: 1px solid #57842A;
-    border-right: none;
-    border-top-left-radius: 64px;
-    border-bottom-left-radius: 64px;
-    outline: none;
-    font-size: 16px;
-    color: #333;
-  }
-  
-  .inputContainer button {
-    padding: 19px 18px;
-    background-color: #57842A;
-    border: none;
-    border-top-right-radius: 64px;
-    border-bottom-right-radius: 64px;
-    color: #D9D9D9;
-    font-family: 'Karla';
-    font-size: 22px;
-    font-weight: 400;
-    cursor: pointer;
-    outline: none;
-  }
-  
-  .inputContainer button:hover {
-    background-color: #3e8e41;}
 
   .resultStyle{
-    background-color: white;
-    width: 1100px;
+    background-color: #F4F4F4;
+    width: 1000px;
     height: auto;
     margin: auto;
     border-radius: 8px;
-    border: 1px solid rgb(55, 55, 55, 0.71);
-    box-shadow: 2px 2px 4px grey ;
-    margin-top: -10rem;
+    border: 1px solid #D9D9D9;
+    box-shadow: 2px 2px 4px #D9D9D9 ;
+    margin-top: -5rem;
     margin-bottom: 2rem;
     .wordStyle{
       font-family: 'Karma';
@@ -83,42 +42,120 @@
       font-weight: 400;
       font-size:36px;
       color: #57842A;
-      padding: 3rem;
+      margin-left: 3rem;
     }
     .synonymStyle{
      font-family: 'Karma';
-     margin-top:4rem;
-     margin-left: 1rem;
-      .underline{
-        text-decoration: underline;
-        font-family: 'Karma';
-        font-weight: 500;
-        font-size:24px;
-        color: #000000;
-        padding: 2rem;
-        margin-left: 1rem;
-      }
+    }
+    .underline{
+      text-decoration: underline;
+      font-family: 'Karma';
+      font-weight: 400;
+      font-size:24px;
+     margin-top: 2rem;
     }
     .definitionStyle{
       margin-left: 3rem;
-      font-family: 'Karma';
+      font-family: 'Karma'; 
+      margin-top: -1rem;
     }
-    // .groupOne{
-    //   display: grid;
-    //   grid-template-columns: 1fr 1fr;
-    // }
+     .groupOne{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+
+   
     .verbStyle{
       font-family: 'Karma';
       font-weight: 400;
       font-size:36px;
       color: #57842A;
-      padding: 3rem;
+      //padding: 3rem;
+      margin-top: 3rem;
+      margin-left: 3rem;
     }
     .interjectionStyle{
       font-family: 'Karma';
       font-weight: 400;
       font-size:36px;
       color: #57842A;
-      padding: 3rem;
+      margin-left: 3rem;
+      width: 50%;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .resultStyle{
+      width: 90%;
+      margin-top: 1rem;
+    }
+    
+
+    .wordStyle {
+      font-size: 36px;
+
+      .audioStyle {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .phoneticStyle {
+      font-size: 0.9rem;
+    }
+
+    .groupOne {
+      grid-template-columns: 1fr; 
+      gap: 0.5rem;
+
+      .nounStyle {
+        font-size: 28px;
+      }
+
+      .definitionStyle, .synonymStyle {
+        font-size: 0.9rem;
+      }
+
+      .underline {
+        font-size: 18px;
+      }
+    }
+
+    .verbStyle {
+      font-size: 28px;
+      margin-top: 1.5rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .resultStyle{
+      width: 100%;
+      padding: 0.5rem;
+    }
+    .wordStyle {
+      font-size: 16px;
+
+      .audioStyle {
+        width: 25px;
+        height: 25px;
+      }
+    }
+    .phoneticStyle {
+      font-size: 0.8rem;
+    }
+
+    .groupOne {
+      gap: 0.3rem;
+      .nounStyle, .verbStyle {
+        font-size: 22px;
+      }
+      .definitionStyle, .synonymStyle {
+        font-size: 0.8rem;
+      
+      }
+      .underline {
+        font-size: 16px;
+      }
     }
   }
