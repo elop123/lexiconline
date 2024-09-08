@@ -30,7 +30,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .footerStyle {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -65,6 +65,6 @@
         padding: 4px;
     }
     .logo{
-        margin-right: 4.5rem;
+        margin: auto;
     }
 }

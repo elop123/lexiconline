@@ -39,7 +39,7 @@ export const Main2 =()=>{
     //function for input change
     const handleChange = (e) => {
         setWord(e.target.value);
-        //console.log(e.target.value)
+        console.log(e.target.value)
       };
 
 
@@ -73,6 +73,7 @@ export const Main2 =()=>{
     <div key={0}>
       <h2 className={s.wordStyle}><img className={s.audioStyle} src={audio} alt='audio-icon'></img> 
       {displayWord[0].word}</h2>
+     
       <p className={s.phoneticStyle}>Phonetic: {displayWord[0].phonetic}</p>
       <div className={s.groupOne}>
        <div>
@@ -100,13 +101,23 @@ export const Main2 =()=>{
                   <p className={s.definitionStyle}>
                     1. {displayWord[0].meanings[1].definitions[0].definition}</p>
                   <p className={s.definitionStyle}>
-                    1. {displayWord[0].meanings[1].definitions[1].definition}</p>
+                    2. {displayWord[0].meanings[1].definitions[1].definition}</p>
                   <p className={s.definitionStyle}>
-                    1. {displayWord[0].meanings[1].definitions[2].definition}</p>
+                    3. {displayWord[0].meanings[1].definitions[2].definition}</p>
                 </div>
               )} <hr />
-   
-   
+     {/* <h2 className={s.nounStyle}>Exemples:</h2> 
+     {displayWord[0]?.meanings?.[0]?.definitions?.[1]?.definition ? (
+      <>
+     <p className={s.definitionStyle}>1. {displayWord[0].meanings[0].definitions[1]}</p>
+     <p className={s.definitionStyle}>2. {displayWord[0].meanings[0].definitions[2]}</p>
+     <p className={s.definitionStyle}>3. {displayWord[0].meanings[0].definitions[3]}</p>
+     <p className={s.definitionStyle}>4. {displayWord[0].meanings[0].definitions[4]}</p>
+     
+     </>
+    ) : (
+      <p className={s.definitionStyle}>No examples available</p>
+    )} */}
    
   
     

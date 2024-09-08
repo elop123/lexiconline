@@ -28,10 +28,12 @@
             font-size: 22px;
             font-family: "Karla", sans-serif;
             font-weight: 300;
+            &:hover{
+              text-decoration: underline;
+              transition: text-decoration 6s ease-in;
+            }
         }
-        // a{
-        //     margin-top: -0.7rem;
-        // }
+       
         }
     }
   

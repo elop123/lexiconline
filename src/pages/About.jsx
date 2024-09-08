@@ -6,7 +6,7 @@ export const About=()=>{
     return(
         <>
         <Header />
-        <InputContainer title="About Lexiconline" />
+        <InputContainer title="About Lexiconline" showSearchBar={false}/>
         <Main />
         </>
     )
