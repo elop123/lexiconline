@@ -6,8 +6,6 @@ export const Home = () =>{
     return(
     <>
   <Header />
-  
   <Main2 />
-
     </>)
 }

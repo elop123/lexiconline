@@ -3,10 +3,10 @@ import s from '../style/InputContainer.module.scss'
 
 export const InputContainer= ({title, word, handleSearch, handleChange, showSearchBar = true})=>{
     return(
-        <div className={s.inputContainer}>
+      <div className={s.inputContainer}>
         <h2 className={s.subtitleStyle}>{title}</h2>
-        {showSearchBar && ( // Condition showing the search bar
-        <div className={s.searchBar}>
+        {showSearchBar && ( // Condition for showing the search bar
+      <div className={s.searchBar}>
         <input
           type="search"
           name="search"
@@ -15,7 +15,7 @@ export const InputContainer= ({title, word, handleSearch, handleChange, showSear
           placeholder=""/>
         <button onClick={handleSearch}>Search</button>
       </div>
-      )}
-        </div>
+        )}
+      </div>
     )
 }

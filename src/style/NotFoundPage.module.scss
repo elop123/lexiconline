@@ -9,4 +9,40 @@
         font-size: 2rem;
         font-family: 'Karla';
     }
+    
 }
+
+.circle{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 120px;
+    width: 220px;
+    border-radius: 0 0 150px 150px;
+    background-color: #57842A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .bookLogo{
+     width: 30%;
+     height: auto;
+    }
+    
+    @media (max-width: 768px){
+        .circle{
+        top: 13%; 
+        height: 90px;
+        width: 180px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .circle{
+            top: 13%; 
+            height: 70px;
+            width: 160px;
+        }   
+    }

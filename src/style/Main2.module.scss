@@ -46,6 +46,7 @@ section{
     }
     .synonymStyle{
      font-family: 'Karma';
+     margin-left: 2rem;
     }
     .underline{
       text-decoration: underline;
@@ -53,6 +54,7 @@ section{
       font-weight: 400;
       font-size:24px;
      margin-top: 2rem;
+     margin-left: 2rem;
     }
     .definitionStyle{
       margin-left: 3rem;
@@ -70,7 +72,6 @@ section{
       font-weight: 400;
       font-size:36px;
       color: #57842A;
-      //padding: 3rem;
       margin-top: 3rem;
       margin-left: 3rem;
     }
@@ -152,7 +153,6 @@ section{
       }
       .definitionStyle, .synonymStyle {
         font-size: 0.8rem;
-      
       }
       .underline {
         font-size: 16px;
