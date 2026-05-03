@@ -1,6 +1,6 @@
 Lexiconline 📖 -https://lexiconline1.vercel.app/
 
-![Screenshot] public/Screenshot 2026-05-03 144115.png
+![Lexiconline Screenshot](public/Screenshot%202026-05-03%20144115.png)
 
 A clean, responsive web application for searching and defining words in real-time.
 
