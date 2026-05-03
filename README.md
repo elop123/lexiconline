@@ -1,6 +1,6 @@
 Lexiconline 📖 -https://lexiconline1.vercel.app/
 
-https://github.com/elop123/lexiconline/commit/0cb6a41b3be502e8278dc602cb70335eeee25017
+public/Screenshot 2026-05-03 144115.png
 
 A clean, responsive web application for searching and defining words in real-time.
 
