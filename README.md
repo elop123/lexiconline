@@ -1,8 +1,26 @@
-# React + Vite
+Lexiconline 📖
+A clean, responsive web application for searching and defining words in real-time.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Project
+I built this to get hands-on experience with:
 
-Currently, two official plugins are available:
+- Asynchronous Logic: Fetching and displaying data from the Free Dictionary API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- State Management: Using React hooks to handle user input and API responses.
+
+- Responsive Design: Ensuring a seamless experience across mobile and desktop.
+
+Tech Stack
+- React.js (Functional Components & Hooks)
+
+- SCSS Modules (Modular, scoped styling)
+
+- JavaScript (ES6+)
+
+What I Learned:
+
+- Asynchronous API Integration: Handled real-time data fetching and managed asynchronous state using async/await and useEffect.
+
+- Dynamic Rendering: Built logic to display content (Nouns vs. Verbs) conditionally based on the API response structure.
+
+- Data Handling: Used Optional Chaining to safely navigate deeply nested API data and prevent app crashes when information was missing.
